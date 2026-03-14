@@ -1,0 +1,19 @@
+{
+  "name": "galacticx",
+  "version": "0.1.0",
+  "description": "A pixel art Star Wars game built with Phaser",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate": "node --env-file=.env scripts/generate.js"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
