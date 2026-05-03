@@ -1,0 +1,11 @@
+{
+  "hack_tool": {
+    "ingredients": {
+      "battery": 1,
+      "wire": 1,
+      "scrap_metal": 1
+    },
+    "output": "hack_tool",
+    "amount": 1
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "grid_size": 48,
+  "origin": [80, 72],
+  "corridor_style": {
+    "bulkhead_interval": 5,
+    "bulkhead_start": 5
+  },
+  "rooms": [
+    {
+      "id": "main_corridor",
+      "type": "corridor",
+      "rect": [0, 5, 24, 2]
+    },
+    {
+      "id": "storage_north",
+      "type": "small_room",
+      "rect": [4, 1, 4, 3],
+      "door": [5, 4]
+    },
+    {
+      "id": "terminal_south",
+      "type": "small_room",
+      "rect": [7, 8, 4, 3],
+      "door": [8, 7]
+    },
+    {
+      "id": "reactor_north",
+      "type": "large_room",
+      "rect": [12, 0, 6, 4],
+      "door": [14, 4]
+    },
+    {
+      "id": "droid_escape_south",
+      "type": "large_room",
+      "rect": [15, 8, 6, 4],
+      "door": [17, 7]
+    },
+    {
+      "id": "command_room",
+      "type": "large_room",
+      "rect": [20, 1, 4, 4],
+      "door": [21, 5]
+    }
+  ],
+  "props": [
+    {
+      "id": "parts_container",
+      "kind": "chest",
+      "grid": [5, 2]
+    },
+    {
+      "id": "access_terminal",
+      "kind": "console",
+      "grid": [8, 9]
+    },
+    {
+      "id": "reactor",
+      "kind": "reactor",
+      "grid": [14, 2]
+    },
+    {
+      "id": "medbay",
+      "kind": "medbay",
+      "grid": [13, 1]
+    },
+    {
+      "id": "droid_marker",
+      "kind": "navigator",
+      "grid": [18, 9]
+    },
+    {
+      "id": "leia_marker",
+      "kind": "placeholder",
+      "grid": [21, 3]
+    },
+    {
+      "id": "vader_marker",
+      "kind": "placeholder",
+      "grid": [23, 6]
+    }
+  ],
+  "labels": [
+    {
+      "text": "Breach",
+      "grid": [0, 4]
+    },
+    {
+      "text": "Storage",
+      "grid": [4, 0]
+    },
+    {
+      "text": "Terminal",
+      "grid": [7, 11]
+    },
+    {
+      "text": "Reactor",
+      "grid": [12, 0]
+    },
+    {
+      "text": "Droid escape bay",
+      "grid": [15, 12]
+    },
+    {
+      "text": "Command",
+      "grid": [20, 0]
+    }
+  ]
+}

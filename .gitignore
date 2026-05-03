@@ -1,4 +1,10 @@
 .env
+.codex/
+.rag/
+.godot/
+.import/
+export.cfg
+export_presets.cfg
 node_modules/
 dist/
 __pycache__/

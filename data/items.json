@@ -1,0 +1,22 @@
+{
+  "battery": {
+    "name": "Battery",
+    "description": "Portable power cell used by ship systems and droids."
+  },
+  "scrap_metal": {
+    "name": "Scrap Metal",
+    "description": "Small salvage plate used for field repairs."
+  },
+  "wire": {
+    "name": "Wire",
+    "description": "Insulated cable pulled from a damaged conduit."
+  },
+  "hack_tool": {
+    "name": "Hack Tool",
+    "description": "Improvised bypass tool for sealed ship panels."
+  },
+  "access_card": {
+    "name": "Access Card",
+    "description": "Temporary access credential from a ship terminal."
+  }
+}

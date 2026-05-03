@@ -1,0 +1,96 @@
+{
+  "tile_size": 48,
+  "root": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset",
+  "sheets": {
+    "floor": "tilesets/Spacestation_Inside_A5.png",
+    "wall": "tilesets/Spacestation_Inside_B.png",
+    "detail": "tilesets/Spacestation_Inside_C.png",
+    "doors": "characters/!Spaceship_door.png",
+    "doors_alt": "characters/!Spaceship_door2.png",
+    "consoles": "characters/!Consoles.png",
+    "reactor": "characters/!$Spaceship_reactor.png",
+    "medbay": "characters/!$Spaceship_Medbay.png",
+    "navigator": "characters/!$Spaceship_Navigator.png",
+    "lights": "characters/!$Light_1.png",
+    "chests": "characters/!Spaceship_chest.png"
+  },
+  "regions": {
+    "floor_basic": {
+      "sheet": "floor",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    },
+    "floor_alt": {
+      "sheet": "floor",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    },
+    "wall_basic": {
+      "sheet": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    },
+    "wall_alt": {
+      "sheet": "wall",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    },
+    "door_basic": {
+      "sheet": "doors",
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "console_basic": {
+      "sheet": "consoles",
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "reactor_basic": {
+      "sheet": "reactor",
+      "x": 0,
+      "y": 0,
+      "w": 144,
+      "h": 144
+    },
+    "medbay_basic": {
+      "sheet": "medbay",
+      "x": 0,
+      "y": 0,
+      "w": 144,
+      "h": 144
+    },
+    "navigator_basic": {
+      "sheet": "navigator",
+      "x": 0,
+      "y": 0,
+      "w": 144,
+      "h": 144
+    },
+    "chest_basic": {
+      "sheet": "chests",
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "light_basic": {
+      "sheet": "lights",
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    }
+  }
+}

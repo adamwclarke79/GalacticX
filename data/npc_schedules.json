@@ -1,0 +1,19 @@
+{
+  "stormtrooper_patrol_01": {
+    "role": "sandbox_patrol",
+    "phases": [
+      {
+        "phase": "Boarding",
+        "behavior": "patrol"
+      },
+      {
+        "phase": "Search",
+        "behavior": "patrol"
+      },
+      {
+        "phase": "Lockdown",
+        "behavior": "hold"
+      }
+    ]
+  }
+}
