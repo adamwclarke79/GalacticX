@@ -1,0 +1,9 @@
+{
+  "method": "edit_with_text",
+  "image_size": {
+    "width": 208,
+    "height": 208
+  },
+  "description": "Keep this exact front-facing stormtrooper pixel-art sprite, transparent background, white armor, black outline, same helmet, body proportions, stance, and blaster-across-chest pose. Make only the black blaster rifle a bit smaller: about 25 percent shorter and less bulky, with a shorter barrel and smaller stock. Keep the left hand on the barrel or fore-end and the right hand at the trigger. Do not change the character size or add anything else.",
+  "no_background": true
+}

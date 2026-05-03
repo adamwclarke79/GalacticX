@@ -1,0 +1,14 @@
+{
+  "description": "Front-facing 16-bit pixel art stormtrooper sprite on a transparent background, same helmet, armor proportions, white armor, black outline, and compact sprite scale as the reference. The black blaster rifle is held horizontally across the chest. The stormtrooper's left hand grips the barrel or fore-end of the blaster, while the right hand holds the trigger and stock near the torso. Full body centered, legs planted, helmet facing forward, crisp pixel art, minimal gray shading, no green background, no text, no extra objects.",
+  "image_size": {
+    "width": 208,
+    "height": 208
+  },
+  "no_background": true,
+  "style_options": {
+    "color_palette": true,
+    "outline": true,
+    "detail": true,
+    "shading": true
+  }
+}

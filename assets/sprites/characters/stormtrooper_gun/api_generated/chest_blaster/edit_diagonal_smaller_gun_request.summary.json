@@ -1,0 +1,9 @@
+{
+  "method": "edit_with_text",
+  "image_size": {
+    "width": 208,
+    "height": 208
+  },
+  "description": "Keep this exact diagonal action pose stormtrooper pixel-art sprite, transparent background, same helmet, armor, body angle, legs, arms, and black outline. Make only the black blaster gun a bit smaller and less bulky: shorten the barrel and stock by about 25 percent, reduce its thickness, and keep it held across the chest. Do not change the character pose, character size, canvas size, or add any background.",
+  "no_background": true
+}

@@ -1,0 +1,30 @@
+{
+  "character": {
+    "id": "37f11e5d-e017-4fdd-8ce7-b4118fd42a88",
+    "name": "imperial officer from star wars. 16 bit pixel art iwth oversized head. ",
+    "prompt": "imperial officer from star wars. 16 bit pixel art iwth oversized head. ",
+    "size": {
+      "width": 108,
+      "height": 108
+    },
+    "template_id": "mannequin",
+    "directions": 8,
+    "view": "low top-down",
+    "created_at": "2026-03-08T12:20:06.632035+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "south-east": "rotations/south-east.png",
+      "east": "rotations/east.png",
+      "north-east": "rotations/north-east.png",
+      "north": "rotations/north.png",
+      "north-west": "rotations/north-west.png",
+      "west": "rotations/west.png",
+      "south-west": "rotations/south-west.png"
+    },
+    "animations": {}
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-02T03:33:17.288613"
+}

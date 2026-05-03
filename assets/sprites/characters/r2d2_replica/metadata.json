@@ -1,0 +1,35 @@
+{
+  "character": {
+    "id": "fbd04f72-c5e4-44d1-b270-856af124a7b7",
+    "name": "small astromech droid - R2D2 replica white body with blue panels oversized round dome head two side legs compact sci-fi utility robot clean retro game sprite preserve original design mechanical movement",
+    "prompt": "small astromech droid - R2D2 replica white body with blue panels oversized round dome head two side legs compact sci-fi utility robot clean retro game sprite preserve original design mechanical movement",
+    "size": {
+      "width": 108,
+      "height": 108
+    },
+    "template_id": "mannequin",
+    "directions": 8,
+    "view": "low top-down",
+    "created_at": "2026-05-02T03:32:12.79023+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "south-east": "rotations/south-east.png",
+      "east": "rotations/east.png",
+      "north-east": "rotations/north-east.png",
+      "north": "rotations/north.png",
+      "north-west": "rotations/north-west.png",
+      "west": "rotations/west.png",
+      "south-west": "rotations/south-west.png"
+    },
+    "animations": {
+      "rolling": {
+        "frame_count": 8,
+        "path_pattern": "animations/rolling/{direction}/frame_{frame}.png"
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-02T03:49:52.857370"
+}

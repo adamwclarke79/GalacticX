@@ -1,0 +1,19 @@
+{
+  "image": "stormtrooper_gun_walk_8way.png",
+  "frameWidth": 104,
+  "frameHeight": 104,
+  "columns": 8,
+  "rows": 8,
+  "framesPerDirection": 8,
+  "directions": [
+    "south",
+    "south-east",
+    "east",
+    "north-east",
+    "north",
+    "north-west",
+    "west",
+    "south-west"
+  ],
+  "layout": "Rows are directions in order; columns are frame_000 through frame_007."
+}
