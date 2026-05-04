@@ -202,23 +202,20 @@ func _add_region_sprite(layer: Node, region_id: String, cell: Vector2i, z_index:
 
 func _add_corridor_floor_tile(layer: Node, cell: Vector2i) -> void:
 	var tile_position: Vector2 = grid_to_world(cell)
-	var inner_color: Color = Color(0.91, 0.98, 0.99) if (cell.x + cell.y) % 2 == 0 else Color(0.84, 0.94, 0.97)
-	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(0.03, 0.04, 0.045), -13)
-	_add_rect_visual(layer, tile_position + Vector2(3.0, 3.0), Vector2(grid_size - 6.0, grid_size - 6.0), inner_color, -12)
-	_add_rect_visual(layer, tile_position + Vector2(7.0, 7.0), Vector2(grid_size - 16.0, 8.0), Color(1.0, 1.0, 1.0, 0.42), -11)
-	_add_rect_visual(layer, tile_position + Vector2(6.0, grid_size - 10.0), Vector2(grid_size - 12.0, 4.0), Color(0.61, 0.79, 0.84, 0.28), -11)
+	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(0.53, 0.55, 0.55), -12)
 
 
 func _add_corridor_wall_panel(layer: Node, cell: Vector2i) -> void:
 	var tile_position: Vector2 = grid_to_world(cell)
-	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(0.11, 0.16, 0.16), -5)
-	_add_rect_visual(layer, tile_position + Vector2(0.0, 4.0), Vector2(grid_size, 28.0), Color(0.70, 0.82, 0.82), -4)
-	_add_rect_visual(layer, tile_position + Vector2(4.0, 7.0), Vector2(grid_size - 8.0, 22.0), Color(0.82, 0.92, 0.92), -3)
-	_add_rect_visual(layer, tile_position + Vector2(0.0, 32.0), Vector2(grid_size, 16.0), Color(0.04, 0.06, 0.07), -2)
-	_add_rect_visual(layer, tile_position + Vector2(0.0, 0.0), Vector2(grid_size, 4.0), Color(0.25, 0.32, 0.32), -1)
-	_add_rect_visual(layer, tile_position + Vector2(0.0, 4.0), Vector2(2.0, 44.0), Color(0.18, 0.24, 0.24), -1)
-	_add_rect_visual(layer, tile_position + Vector2(grid_size - 2.0, 4.0), Vector2(2.0, 44.0), Color(0.18, 0.24, 0.24), -1)
-	_add_rect_visual(layer, tile_position + Vector2(grid_size * 0.5 - 1.0, 7.0), Vector2(2.0, 25.0), Color(0.46, 0.56, 0.56, 0.65), -1)
+	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(0.88, 0.89, 0.88), -5)
+	_add_rect_visual(layer, tile_position + Vector2(2.0, 2.0), Vector2(grid_size - 4.0, grid_size - 4.0), Color(0.96, 0.97, 0.96), -4)
+	_add_rect_visual(layer, tile_position + Vector2(6.0, 7.0), Vector2(grid_size - 12.0, 3.0), Color(1.0, 1.0, 1.0, 0.50), -3)
+	_add_rect_visual(layer, tile_position + Vector2(6.0, grid_size - 10.0), Vector2(grid_size - 12.0, 2.0), Color(0.62, 0.64, 0.64, 0.35), -3)
+	_add_rect_visual(layer, tile_position + Vector2(4.0, 14.0), Vector2(2.0, 20.0), Color(0.58, 0.60, 0.60, 0.25), -2)
+	_add_rect_visual(layer, tile_position + Vector2(grid_size - 8.0, 10.0), Vector2(2.0, 24.0), Color(0.38, 0.40, 0.40, 0.35), -2)
+	_add_rect_visual(layer, tile_position + Vector2(grid_size - 15.0, 15.0), Vector2(5.0, 3.0), Color(0.12, 0.13, 0.13, 0.50), -1)
+	_add_rect_visual(layer, tile_position + Vector2(11.0, 15.0), Vector2(7.0, 2.0), Color(0.74, 0.10, 0.10, 0.45), -1)
+	_add_rect_visual(layer, tile_position + Vector2(19.0, 15.0), Vector2(6.0, 2.0), Color(0.12, 0.13, 0.13, 0.45), -1)
 
 
 func _add_open_bulkhead(layer: Node, top_cell: Vector2i, corridor_height: int) -> void:
@@ -227,11 +224,11 @@ func _add_open_bulkhead(layer: Node, top_cell: Vector2i, corridor_height: int) -
 	var top_wall_position: Vector2 = grid_to_world(Vector2i(top_cell.x, top_cell.y - 1))
 	var bottom_wall_position: Vector2 = grid_to_world(Vector2i(top_cell.x, top_cell.y + corridor_height))
 
-	_add_rect_visual(layer, portal_top_left + Vector2(-4.0, 0.0), Vector2(8.0, portal_height), Color(0.02, 0.025, 0.03), 3)
-	_add_rect_visual(layer, portal_top_left + Vector2(-1.0, 4.0), Vector2(2.0, portal_height - 8.0), Color(0.96, 1.0, 1.0), 4)
-	_add_rect_visual(layer, portal_top_left + Vector2(3.0, 0.0), Vector2(3.0, portal_height), Color(0.02, 0.025, 0.03), 4)
-	_add_rect_visual(layer, portal_top_left + Vector2(-8.0, -3.0), Vector2(grid_size + 16.0, 6.0), Color(0.02, 0.025, 0.03), 4)
-	_add_rect_visual(layer, portal_top_left + Vector2(-8.0, portal_height - 3.0), Vector2(grid_size + 16.0, 6.0), Color(0.02, 0.025, 0.03), 4)
+	_add_rect_visual(layer, portal_top_left + Vector2(-5.0, 0.0), Vector2(10.0, portal_height), Color(0.77, 0.78, 0.77), 3)
+	_add_rect_visual(layer, portal_top_left + Vector2(-2.0, 5.0), Vector2(4.0, portal_height - 10.0), Color(0.95, 0.96, 0.95), 4)
+	_add_rect_visual(layer, portal_top_left + Vector2(4.0, 0.0), Vector2(2.0, portal_height), Color(0.56, 0.58, 0.58, 0.55), 4)
+	_add_rect_visual(layer, portal_top_left + Vector2(-8.0, -3.0), Vector2(grid_size + 16.0, 6.0), Color(0.80, 0.81, 0.80), 4)
+	_add_rect_visual(layer, portal_top_left + Vector2(-8.0, portal_height - 3.0), Vector2(grid_size + 16.0, 6.0), Color(0.72, 0.74, 0.73), 4)
 
 	_add_retracted_blast_panel(layer, top_wall_position + Vector2(4.0, 18.0), false)
 	_add_retracted_blast_panel(layer, bottom_wall_position + Vector2(4.0, 6.0), true)
@@ -239,17 +236,17 @@ func _add_open_bulkhead(layer: Node, top_cell: Vector2i, corridor_height: int) -
 
 func _add_side_room_blast_door(layer: Node, cell: Vector2i) -> void:
 	var tile_position: Vector2 = grid_to_world(cell)
-	_add_rect_visual(layer, tile_position + Vector2(4.0, 4.0), Vector2(grid_size - 8.0, grid_size - 8.0), Color(0.02, 0.025, 0.03), 1)
-	_add_rect_visual(layer, tile_position + Vector2(8.0, 8.0), Vector2(grid_size - 16.0, grid_size - 16.0), Color(0.93, 0.99, 1.0), 2)
-	_add_rect_visual(layer, tile_position + Vector2(11.0, 11.0), Vector2(grid_size - 22.0, 6.0), Color(1.0, 1.0, 1.0, 0.55), 3)
-	_add_rect_visual(layer, tile_position + Vector2(8.0, grid_size * 0.5 - 2.0), Vector2(grid_size - 16.0, 4.0), Color(0.02, 0.025, 0.03), 3)
+	_add_rect_visual(layer, tile_position + Vector2(4.0, 4.0), Vector2(grid_size - 8.0, grid_size - 8.0), Color(0.73, 0.75, 0.74), 1)
+	_add_rect_visual(layer, tile_position + Vector2(8.0, 8.0), Vector2(grid_size - 16.0, grid_size - 16.0), Color(0.91, 0.92, 0.91), 2)
+	_add_rect_visual(layer, tile_position + Vector2(11.0, 11.0), Vector2(grid_size - 22.0, 6.0), Color(1.0, 1.0, 1.0, 0.45), 3)
+	_add_rect_visual(layer, tile_position + Vector2(12.0, grid_size * 0.5 - 1.0), Vector2(grid_size - 24.0, 2.0), Color(0.50, 0.52, 0.52), 3)
 
 
 func _add_retracted_blast_panel(layer: Node, top_left: Vector2, flipped: bool) -> void:
-	_add_rect_visual(layer, top_left, Vector2(grid_size - 8.0, 22.0), Color(0.02, 0.025, 0.03), 5)
-	_add_rect_visual(layer, top_left + Vector2(3.0, 3.0), Vector2(grid_size - 14.0, 16.0), Color(0.91, 0.98, 1.0), 6)
+	_add_rect_visual(layer, top_left, Vector2(grid_size - 8.0, 22.0), Color(0.71, 0.73, 0.72), 5)
+	_add_rect_visual(layer, top_left + Vector2(3.0, 3.0), Vector2(grid_size - 14.0, 16.0), Color(0.93, 0.94, 0.93), 6)
 	var shine_y: float = 5.0 if not flipped else 13.0
-	_add_rect_visual(layer, top_left + Vector2(7.0, shine_y), Vector2(grid_size - 22.0, 4.0), Color(1.0, 1.0, 1.0, 0.58), 7)
+	_add_rect_visual(layer, top_left + Vector2(7.0, shine_y), Vector2(grid_size - 22.0, 3.0), Color(1.0, 1.0, 1.0, 0.52), 7)
 
 
 func _add_rect_visual(layer: Node, top_left: Vector2, size: Vector2, color: Color, z_index: int) -> Polygon2D:
@@ -392,9 +389,9 @@ func _collision_size_for_prop(kind: String) -> Vector2:
 
 func _fallback_color(region_id: String) -> Color:
 	if region_id.begins_with("wall"):
-		return Color(0.25, 0.27, 0.32)
+		return Color(0.92, 0.93, 0.92)
 	if region_id.begins_with("door"):
-		return Color(0.62, 0.16, 0.18)
+		return Color(0.72, 0.74, 0.73)
 	if region_id.begins_with("floor"):
-		return Color(0.12, 0.15, 0.20)
+		return Color(0.52, 0.54, 0.54)
 	return Color(0.20, 0.45, 0.52)

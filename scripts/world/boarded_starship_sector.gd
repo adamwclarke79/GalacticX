@@ -91,11 +91,11 @@ func _create_starship_layout() -> bool:
 
 
 func _create_placeholder_starship_map() -> void:
-	_add_floor(Rect2(Vector2(40, 96), Vector2(1200, 520)), Color(0.10, 0.12, 0.16))
-	_add_floor(Rect2(Vector2(80, 140), Vector2(1120, 432)), Color(0.15, 0.17, 0.22))
-	_add_floor(Rect2(Vector2(90, 310), Vector2(1080, 96)), Color(0.20, 0.22, 0.28))
-	_add_floor(Rect2(Vector2(760, 166), Vector2(210, 130)), Color(0.13, 0.16, 0.21))
-	_add_floor(Rect2(Vector2(760, 420), Vector2(210, 120)), Color(0.13, 0.16, 0.21))
+	_add_floor(Rect2(Vector2(40, 96), Vector2(1200, 520)), Color(0.86, 0.87, 0.86))
+	_add_floor(Rect2(Vector2(80, 140), Vector2(1120, 432)), Color(0.94, 0.95, 0.94))
+	_add_floor(Rect2(Vector2(90, 310), Vector2(1080, 96)), Color(0.53, 0.55, 0.55))
+	_add_floor(Rect2(Vector2(760, 166), Vector2(210, 130)), Color(0.90, 0.91, 0.90))
+	_add_floor(Rect2(Vector2(760, 420), Vector2(210, 120)), Color(0.90, 0.91, 0.90))
 	_add_tileset_reference_tiles()
 
 	_add_wall(Rect2(Vector2(40, 96), Vector2(1200, 28)))
@@ -109,14 +109,14 @@ func _create_placeholder_starship_map() -> void:
 	_add_wall(Rect2(Vector2(982, 124), Vector2(28, 190)))
 	_add_wall(Rect2(Vector2(982, 410), Vector2(28, 178)))
 
-	_add_floor(Rect2(Vector2(68, 315), Vector2(70, 86)), Color(0.40, 0.17, 0.12))
+	_add_floor(Rect2(Vector2(68, 315), Vector2(70, 86)), Color(0.72, 0.74, 0.73))
 	_add_label("Breach", Vector2(78, 284), Color(1.0, 0.52, 0.34))
 	_add_label("Droid escape bay", Vector2(1010, 528), Color(0.55, 0.90, 1.0))
 	_add_label("Leia marker", Vector2(790, 142), Color(0.95, 0.86, 0.55))
 	_add_label("Vader marker", Vector2(1035, 144), Color(0.92, 0.24, 0.22))
 
 	for cover_position in [Vector2(435, 318), Vector2(525, 392), Vector2(828, 312), Vector2(900, 392)]:
-		_add_prop(cover_position, Vector2(48, 30), Color(0.24, 0.27, 0.32))
+		_add_prop(cover_position, Vector2(48, 30), Color(0.74, 0.76, 0.75))
 
 
 func _create_interactables() -> void:
@@ -258,7 +258,7 @@ func _add_wall(rect: Rect2) -> void:
 	body.add_child(collision)
 
 	var visual := Polygon2D.new()
-	visual.color = Color(0.28, 0.30, 0.36)
+	visual.color = Color(0.94, 0.95, 0.94)
 	visual.z_index = 8
 	visual.polygon = PackedVector2Array([
 		Vector2(-rect.size.x * 0.5, -rect.size.y * 0.5),
