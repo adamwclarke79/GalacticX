@@ -1,0 +1,22 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "Spacestation_Inside_A5",
+  "tilewidth": 48,
+  "tileheight": 48,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 8,
+  "tilecount": 128,
+  "image": "../../../tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+  "imagewidth": 384,
+  "imageheight": 768,
+  "properties": [
+    {
+      "name": "godot_source",
+      "type": "string",
+      "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png"
+    }
+  ]
+}

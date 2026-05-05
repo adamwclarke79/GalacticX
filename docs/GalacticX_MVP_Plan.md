@@ -23,11 +23,12 @@ Implemented systems:
 - `BoardedStarshipSector`: current sandbox level.
 - `HUD`: inventory, time, suspicion, prompt, and debug status display.
 
-`BoardedStarshipSector` creates `TileMapLayers` shells named `Floor`, `WallsCollision`, `Props`, `Doors`, and `GameplayMarkers`, then asks `StarshipLayoutBuilder` to populate generated child nodes under those layers. The generated map uses:
+`BoardedStarshipSector` creates `TileMapLayers` shells named `Floor`, `WallsCollision`, `Props`, `Doors`, `GameplayMarkers`, and `Labels`. It first tries to load converted Tiled JSON from `data/maps/starship_sector_painted.json`; if unavailable, it asks `StarshipLayoutBuilder` to populate generated child nodes under those layers. The generated fallback map uses:
 
 - `data/starship_sector_layout.json`: long corridor, side rooms, doors, props, and labels.
 - `data/spaceship_tile_catalog.json`: atlas sheet paths and regions from the imported spaceship tileset.
-- `scripts/world/starship_layout_builder.gd`: walkable-grid layout, white tiled floor rendering, black-base/white-panel wall rendering, door/prop sprite placement, and collision generation.
+- `scripts/world/painted_tiled_map_loader.gd`: runtime loader for converted Tiled visual items, collisions, labels, and gameplay markers.
+- `scripts/world/starship_layout_builder.gd`: walkable-grid layout, flat gunmetal floor rendering, white wall tile rendering, door/prop sprite placement, and collision generation.
 - `scripts/world/tile_catalog.gd`: safe loading for imported atlas regions.
 
 The spaceship tileset archive has been extracted to `assets/tilesets/spaceship_tileset/`. Collision is currently generated from the JSON walkable grid with `StaticBody2D` cells. A painted Godot `TileSet` can replace or refine this later without changing the gameplay systems.
@@ -97,9 +98,11 @@ Expected layout:
 Current runtime layout:
 
 - breach entry at the left end of the main corridor
-- two-tile-wide long corridor across the sector
-- shiny white floor tiles with black borders for the playable corridor and rooms
-- black-base walls with white wall panels and dark cap lines, matching the current reference image
+- underlying two-cell-high long corridor across the sector, with the visible floor strip scaled to 40% of that width so it reads 60% narrower
+- flat single-color gunmetal floor for the narrowed corridor strip and rooms
+- 96x96 wall visuals from `assets/tilesets/starwars/wall_tile_96.png`, a strict resize of the full supplied reference image, while gameplay collision remains on the 48px grid
+- every second north-face corridor wall cell has a hanging `GX0861` button/control overlay from `Spacestation_Inside_C.png` at atlas region `x=480 y=432 48x48`
+- door visuals use the `!Spaceship_door.png` frame set `GX2036` open, `GX2048` partially open, `GX2060` partially open, and `GX2072` closed, rendered through a white-door shader; the locked door plays the partial frames when opening
 - repeated open bulkheads every five corridor tiles, with shiny white blast-door panels retracted into the walls
 - small north storage room with the parts container
 - small south terminal room with the access terminal
@@ -145,7 +148,7 @@ Saved state:
 
 - Create a Godot `TileSet` resource from `assets/tilesets/spaceship_tileset/`.
 - Add wall/bulkhead collision to the Godot `TileSet`.
-- Convert the JSON-generated layout into real painted `TileMapLayer` content when the editor workflow is ready.
+- Paint the first production starship map in Tiled from `assets/maps/tiled/starship_sector_template.json`, then convert it to `data/maps/starship_sector_painted.json`.
 - Use PixelLab only for supplemental missing tiles, props, and map reference art after checking balance and choosing an explicit output directory.
 - Add Leia and Vader sprites when available.
 - Expand NPC behavior from static/patrol markers into sandbox behaviors.

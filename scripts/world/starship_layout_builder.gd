@@ -4,6 +4,7 @@ extends RefCounted
 const TileCatalogScript: Script = preload("res://scripts/world/tile_catalog.gd")
 const DEFAULT_LAYOUT_PATH := "res://data/starship_sector_layout.json"
 const DEFAULT_CATALOG_PATH := "res://data/spaceship_tile_catalog.json"
+const WALL_TILE_96_PATH := "res://assets/tilesets/starwars/wall_tile_96.png"
 const CARDINAL_DIRECTIONS := [
 	Vector2i(1, 0),
 	Vector2i(-1, 0),
@@ -18,7 +19,10 @@ var origin := Vector2.ZERO
 var _walkable_cells: Dictionary = {}
 var _door_cells: Dictionary = {}
 var _wall_cells: Dictionary = {}
+var _corridor_cells: Dictionary = {}
 var _corridor_rects: Array[Rect2i] = []
+var _wall_tile_96_texture: Texture2D
+var _white_door_material: ShaderMaterial
 
 
 func build_into(parent: Node2D, layout_path: String = DEFAULT_LAYOUT_PATH, catalog_path: String = DEFAULT_CATALOG_PATH) -> bool:
@@ -42,6 +46,7 @@ func build_into(parent: Node2D, layout_path: String = DEFAULT_LAYOUT_PATH, catal
 
 	_paint_floor(floor_layer)
 	_paint_walls(wall_layer)
+	_paint_north_corridor_wall_buttons(wall_layer)
 	_paint_doors(door_layer)
 	_paint_bulkheads(door_layer)
 	_paint_props(prop_layer)
@@ -62,6 +67,7 @@ func _clear_state() -> void:
 	_walkable_cells.clear()
 	_door_cells.clear()
 	_wall_cells.clear()
+	_corridor_cells.clear()
 	_corridor_rects.clear()
 
 
@@ -96,11 +102,15 @@ func _populate_walkable_cells() -> void:
 			continue
 		var room: Dictionary = room_value as Dictionary
 		var room_rect: Rect2i = _array_to_rect2i(room.get("rect", []))
-		if String(room.get("type", "")) == "corridor":
+		var is_corridor: bool = String(room.get("type", "")) == "corridor"
+		if is_corridor:
 			_corridor_rects.append(room_rect)
 		for x in range(room_rect.position.x, room_rect.position.x + room_rect.size.x):
 			for y in range(room_rect.position.y, room_rect.position.y + room_rect.size.y):
-				_mark_walkable(Vector2i(x, y))
+				var cell := Vector2i(x, y)
+				_mark_walkable(cell)
+				if is_corridor:
+					_corridor_cells[_cell_key(cell)] = cell
 
 		if room.has("door"):
 			var door_cell: Vector2i = _array_to_vector2i(room["door"])
@@ -110,8 +120,13 @@ func _populate_walkable_cells() -> void:
 
 func _paint_floor(layer: Node) -> void:
 	for key in _walkable_cells.keys():
+		if _corridor_cells.has(key):
+			continue
 		var cell: Vector2i = _walkable_cells[key] as Vector2i
-		_add_corridor_floor_tile(layer, cell)
+		_add_room_floor_tile(layer, cell)
+
+	for corridor_rect in _corridor_rects:
+		_add_narrow_corridor_floor_strip(layer, corridor_rect)
 
 
 func _paint_walls(layer: Node) -> void:
@@ -124,8 +139,21 @@ func _paint_walls(layer: Node) -> void:
 			if _walkable_cells.has(wall_key) or _wall_cells.has(wall_key):
 				continue
 			_wall_cells[wall_key] = wall_cell
-			_add_corridor_wall_panel(layer, wall_cell)
 			_add_collision_rect(layer, "WallCollision", grid_to_center(wall_cell), Vector2(grid_size, grid_size))
+
+	for key in _wall_cells.keys():
+		var cell: Vector2i = _wall_cells[key] as Vector2i
+		_add_corridor_wall_panel(layer, cell)
+
+
+func _paint_north_corridor_wall_buttons(layer: Node) -> void:
+	for corridor_rect in _corridor_rects:
+		var north_wall_y: int = corridor_rect.position.y - 1
+		for x in range(corridor_rect.position.x + 1, corridor_rect.position.x + corridor_rect.size.x, 2):
+			var wall_cell := Vector2i(x, north_wall_y)
+			if not _wall_cells.has(_cell_key(wall_cell)):
+				continue
+			_add_wall_button_panel(layer, wall_cell)
 
 
 func _paint_doors(layer: Node) -> void:
@@ -200,22 +228,122 @@ func _add_region_sprite(layer: Node, region_id: String, cell: Vector2i, z_index:
 	layer.add_child(sprite)
 
 
-func _add_corridor_floor_tile(layer: Node, cell: Vector2i) -> void:
-	var tile_position: Vector2 = grid_to_world(cell)
-	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(0.53, 0.55, 0.55), -12)
+func _corridor_floor_width_scale() -> float:
+	var style: Dictionary = layout.get("corridor_style", {}) as Dictionary
+	var scale: float = float(style.get("floor_width_scale", 0.4))
+	return min(1.0, max(0.1, scale))
+
+
+func _add_room_floor_tile(layer: Node, cell: Vector2i) -> void:
+	_add_floor_tile_visual(layer, grid_to_world(cell), Vector2(grid_size, grid_size), -12)
+
+
+func _add_narrow_corridor_floor_strip(layer: Node, corridor_rect: Rect2i) -> void:
+	var full_top_left: Vector2 = grid_to_world(corridor_rect.position)
+	var full_height: float = float(corridor_rect.size.y) * grid_size
+	var floor_height: float = full_height * _corridor_floor_width_scale()
+	var floor_y: float = full_top_left.y + (full_height - floor_height) * 0.5
+
+	for x in range(corridor_rect.position.x, corridor_rect.position.x + corridor_rect.size.x):
+		var tile_top_left := Vector2(grid_to_world(Vector2i(x, corridor_rect.position.y)).x, floor_y)
+		_add_floor_tile_visual(layer, tile_top_left, Vector2(grid_size, floor_height), -12)
+
+
+func _add_floor_tile_visual(layer: Node, top_left: Vector2, size: Vector2, z_index: int) -> void:
+	_add_rect_visual(layer, top_left, size, Color(0.24, 0.27, 0.28), z_index)
 
 
 func _add_corridor_wall_panel(layer: Node, cell: Vector2i) -> void:
+	if _add_wall_tile_96_sprite(layer, cell):
+		return
+
 	var tile_position: Vector2 = grid_to_world(cell)
-	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(0.88, 0.89, 0.88), -5)
-	_add_rect_visual(layer, tile_position + Vector2(2.0, 2.0), Vector2(grid_size - 4.0, grid_size - 4.0), Color(0.96, 0.97, 0.96), -4)
-	_add_rect_visual(layer, tile_position + Vector2(6.0, 7.0), Vector2(grid_size - 12.0, 3.0), Color(1.0, 1.0, 1.0, 0.50), -3)
-	_add_rect_visual(layer, tile_position + Vector2(6.0, grid_size - 10.0), Vector2(grid_size - 12.0, 2.0), Color(0.62, 0.64, 0.64, 0.35), -3)
-	_add_rect_visual(layer, tile_position + Vector2(4.0, 14.0), Vector2(2.0, 20.0), Color(0.58, 0.60, 0.60, 0.25), -2)
-	_add_rect_visual(layer, tile_position + Vector2(grid_size - 8.0, 10.0), Vector2(2.0, 24.0), Color(0.38, 0.40, 0.40, 0.35), -2)
-	_add_rect_visual(layer, tile_position + Vector2(grid_size - 15.0, 15.0), Vector2(5.0, 3.0), Color(0.12, 0.13, 0.13, 0.50), -1)
-	_add_rect_visual(layer, tile_position + Vector2(11.0, 15.0), Vector2(7.0, 2.0), Color(0.74, 0.10, 0.10, 0.45), -1)
-	_add_rect_visual(layer, tile_position + Vector2(19.0, 15.0), Vector2(6.0, 2.0), Color(0.12, 0.13, 0.13, 0.45), -1)
+	_add_rect_visual(layer, tile_position, Vector2(grid_size, grid_size), Color(1.0, 1.0, 1.0), -5)
+	_add_rect_visual(layer, tile_position, Vector2(grid_size, 2.0), Color(0.86, 0.88, 0.88), -4)
+	_add_rect_visual(layer, tile_position + Vector2(0.0, grid_size - 2.0), Vector2(grid_size, 2.0), Color(0.86, 0.88, 0.88), -4)
+	_add_rect_visual(layer, tile_position, Vector2(2.0, grid_size), Color(0.86, 0.88, 0.88), -4)
+	_add_rect_visual(layer, tile_position + Vector2(grid_size - 2.0, 0.0), Vector2(2.0, grid_size), Color(0.86, 0.88, 0.88), -4)
+
+
+func _add_wall_tile_96_sprite(layer: Node, cell: Vector2i) -> bool:
+	var texture := _get_wall_tile_96_texture()
+	if texture == null:
+		return false
+	if not _is_wall_tile_96_anchor(cell):
+		return true
+
+	var sprite := Sprite2D.new()
+	sprite.name = "WallTile96"
+	sprite.texture = texture
+	sprite.centered = false
+	sprite.position = grid_to_center(cell) - Vector2(48.0, 48.0)
+	sprite.z_index = -5
+	layer.add_child(sprite)
+	return true
+
+
+func _get_wall_tile_96_texture() -> Texture2D:
+	if _wall_tile_96_texture != null:
+		return _wall_tile_96_texture
+
+	_wall_tile_96_texture = load(WALL_TILE_96_PATH) as Texture2D
+	return _wall_tile_96_texture
+
+
+func _is_wall_tile_96_anchor(cell: Vector2i) -> bool:
+	if _is_horizontal_wall_cell(cell):
+		var start_x: int = cell.x
+		while _is_horizontal_wall_cell(Vector2i(start_x - 1, cell.y)):
+			start_x -= 1
+		return (cell.x - start_x) % 2 == 0
+	if _is_vertical_wall_cell(cell):
+		var start_y: int = cell.y
+		while _is_vertical_wall_cell(Vector2i(cell.x, start_y - 1)):
+			start_y -= 1
+		return (cell.y - start_y) % 2 == 0
+	return (cell.x + cell.y) % 2 == 0
+
+
+func _is_horizontal_wall_cell(cell: Vector2i) -> bool:
+	if not _wall_cells.has(_cell_key(cell)):
+		return false
+	return _walkable_cells.has(_cell_key(cell + Vector2i(0, 1))) or _walkable_cells.has(_cell_key(cell + Vector2i(0, -1)))
+
+
+func _is_vertical_wall_cell(cell: Vector2i) -> bool:
+	if not _wall_cells.has(_cell_key(cell)):
+		return false
+	return _walkable_cells.has(_cell_key(cell + Vector2i(1, 0))) or _walkable_cells.has(_cell_key(cell + Vector2i(-1, 0)))
+
+
+func _add_wall_button_panel(layer: Node, cell: Vector2i) -> void:
+	var texture: Texture2D = catalog.make_texture("wall_button_panel")
+	if texture != null:
+		var sprite := Sprite2D.new()
+		sprite.name = "NorthWallButtonPanel"
+		sprite.texture = texture
+		sprite.centered = false
+		sprite.position = grid_to_world(cell) + Vector2(8.0, 6.0)
+		sprite.scale = Vector2(0.67, 0.50)
+		sprite.z_index = -1
+		layer.add_child(sprite)
+		_add_wall_button_indicator_dots(layer, grid_to_world(cell))
+	else:
+		_add_wall_button_panel_fallback(layer, grid_to_world(cell))
+
+
+func _add_wall_button_indicator_dots(layer: Node, tile_position: Vector2) -> void:
+	var panel_position := tile_position + Vector2(8.0, 6.0)
+	_add_rect_visual(layer, panel_position + Vector2(7.0, 7.0), Vector2(4.0, 4.0), Color(0.86, 0.12, 0.12), 0)
+	_add_rect_visual(layer, panel_position + Vector2(18.0, 7.0), Vector2(4.0, 4.0), Color(0.15, 0.48, 0.95), 0)
+
+
+func _add_wall_button_panel_fallback(layer: Node, tile_position: Vector2) -> void:
+	var panel_position := tile_position + Vector2(9.0, 10.0)
+	_add_rect_visual(layer, panel_position, Vector2(30.0, 20.0), Color(0.95, 0.96, 0.94), -1)
+	_add_rect_visual(layer, panel_position + Vector2(2.0, 2.0), Vector2(26.0, 16.0), Color(1.0, 1.0, 1.0), 0)
+	_add_rect_visual(layer, panel_position + Vector2(7.0, 7.0), Vector2(4.0, 4.0), Color(0.86, 0.12, 0.12), 1)
+	_add_rect_visual(layer, panel_position + Vector2(18.0, 7.0), Vector2(4.0, 4.0), Color(0.15, 0.48, 0.95), 1)
 
 
 func _add_open_bulkhead(layer: Node, top_cell: Vector2i, corridor_height: int) -> void:
@@ -236,17 +364,49 @@ func _add_open_bulkhead(layer: Node, top_cell: Vector2i, corridor_height: int) -
 
 func _add_side_room_blast_door(layer: Node, cell: Vector2i) -> void:
 	var tile_position: Vector2 = grid_to_world(cell)
-	_add_rect_visual(layer, tile_position + Vector2(4.0, 4.0), Vector2(grid_size - 8.0, grid_size - 8.0), Color(0.73, 0.75, 0.74), 1)
-	_add_rect_visual(layer, tile_position + Vector2(8.0, 8.0), Vector2(grid_size - 16.0, grid_size - 16.0), Color(0.91, 0.92, 0.91), 2)
-	_add_rect_visual(layer, tile_position + Vector2(11.0, 11.0), Vector2(grid_size - 22.0, 6.0), Color(1.0, 1.0, 1.0, 0.45), 3)
-	_add_rect_visual(layer, tile_position + Vector2(12.0, grid_size * 0.5 - 1.0), Vector2(grid_size - 24.0, 2.0), Color(0.50, 0.52, 0.52), 3)
+	if _add_white_door_frame_sprite(layer, "door_frame_open", tile_position + Vector2(0.0, -24.0), 4):
+		return
+	_add_white_door_fallback(layer, tile_position + Vector2(4.0, 4.0), Vector2(grid_size - 8.0, grid_size - 8.0), 1)
 
 
 func _add_retracted_blast_panel(layer: Node, top_left: Vector2, flipped: bool) -> void:
-	_add_rect_visual(layer, top_left, Vector2(grid_size - 8.0, 22.0), Color(0.71, 0.73, 0.72), 5)
-	_add_rect_visual(layer, top_left + Vector2(3.0, 3.0), Vector2(grid_size - 14.0, 16.0), Color(0.93, 0.94, 0.93), 6)
+	_add_rect_visual(layer, top_left, Vector2(grid_size - 8.0, 22.0), Color(0.04, 0.045, 0.05), 5)
+	_add_rect_visual(layer, top_left + Vector2(3.0, 3.0), Vector2(grid_size - 14.0, 16.0), Color(1.0, 1.0, 1.0), 6)
 	var shine_y: float = 5.0 if not flipped else 13.0
 	_add_rect_visual(layer, top_left + Vector2(7.0, shine_y), Vector2(grid_size - 22.0, 3.0), Color(1.0, 1.0, 1.0, 0.52), 7)
+
+
+func _add_white_door_frame_sprite(layer: Node, region_id: String, top_left: Vector2, z_index: int) -> bool:
+	var texture: Texture2D = catalog.make_texture(region_id)
+	if texture == null:
+		return false
+
+	var sprite := Sprite2D.new()
+	sprite.name = "WhiteDoorFrame"
+	sprite.texture = texture
+	sprite.centered = false
+	sprite.position = top_left
+	sprite.z_index = z_index
+	sprite.material = _get_white_door_material()
+	layer.add_child(sprite)
+	return true
+
+
+func _add_white_door_fallback(layer: Node, top_left: Vector2, size: Vector2, z_index: int) -> void:
+	_add_rect_visual(layer, top_left, size, Color(0.04, 0.045, 0.05), z_index)
+	_add_rect_visual(layer, top_left + Vector2(4.0, 4.0), size - Vector2(8.0, 8.0), Color(1.0, 1.0, 1.0), z_index + 1)
+
+
+func _get_white_door_material() -> ShaderMaterial:
+	if _white_door_material != null:
+		return _white_door_material
+
+	var shader := Shader.new()
+	shader.code = "shader_type canvas_item;\nvoid fragment() {\n\tvec4 base = texture(TEXTURE, UV);\n\tfloat shade = dot(base.rgb, vec3(0.299, 0.587, 0.114));\n\tfloat panel = smoothstep(0.08, 0.92, shade);\n\tvec3 color = mix(vec3(0.04, 0.045, 0.05), vec3(1.0), panel);\n\tCOLOR = vec4(color, base.a);\n}\n"
+
+	_white_door_material = ShaderMaterial.new()
+	_white_door_material.shader = shader
+	return _white_door_material
 
 
 func _add_rect_visual(layer: Node, top_left: Vector2, size: Vector2, color: Color, z_index: int) -> Polygon2D:

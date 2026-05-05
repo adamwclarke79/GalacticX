@@ -1,0 +1,15 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "FixtureFloor",
+  "tilewidth": 48,
+  "tileheight": 48,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 4,
+  "tilecount": 16,
+  "image": "../../../assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+  "imagewidth": 192,
+  "imageheight": 192
+}

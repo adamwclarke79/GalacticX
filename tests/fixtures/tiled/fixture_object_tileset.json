@@ -1,0 +1,15 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "FixtureObjects",
+  "tilewidth": 96,
+  "tileheight": 96,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 2,
+  "tilecount": 4,
+  "image": "../../../assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png",
+  "imagewidth": 192,
+  "imageheight": 192
+}

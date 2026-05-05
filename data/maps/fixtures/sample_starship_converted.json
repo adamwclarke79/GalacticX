@@ -1,0 +1,316 @@
+{
+  "format": "galacticx_tiled_map_v1",
+  "source_map": "tests/fixtures/tiled/sample_starship.tiled.json",
+  "grid_size": 16,
+  "size": {
+    "width": 4,
+    "height": 4,
+    "pixel_width": 64,
+    "pixel_height": 64
+  },
+  "layers": [
+    {
+      "name": "Floor",
+      "type": "tilelayer",
+      "z_index": -20,
+      "opacity": 1.0,
+      "visible": true,
+      "properties": {},
+      "items": [
+        {
+          "id": "Floor_0_0",
+          "gid": 1,
+          "raw_gid": 1,
+          "tileset": "FixtureFloor",
+          "local_id": 0,
+          "source": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "source_path": "assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "atlas": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "position": [
+            0.0,
+            0.0
+          ],
+          "size": [
+            48.0,
+            48.0
+          ],
+          "rotation": 0.0,
+          "flip": {
+            "horizontal": false,
+            "vertical": false,
+            "diagonal": false,
+            "hex_120": false
+          },
+          "opacity": 1.0,
+          "properties": {}
+        },
+        {
+          "id": "Floor_1_0",
+          "gid": 2,
+          "raw_gid": 2147483650,
+          "tileset": "FixtureFloor",
+          "local_id": 1,
+          "source": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "source_path": "assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "atlas": [
+            48,
+            0,
+            48,
+            48
+          ],
+          "position": [
+            16.0,
+            0.0
+          ],
+          "size": [
+            48.0,
+            48.0
+          ],
+          "rotation": 0.0,
+          "flip": {
+            "horizontal": true,
+            "vertical": false,
+            "diagonal": false,
+            "hex_120": false
+          },
+          "opacity": 1.0,
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "name": "Props",
+      "type": "objectgroup",
+      "z_index": 2,
+      "opacity": 1.0,
+      "visible": true,
+      "properties": {},
+      "items": [
+        {
+          "id": "Props_1",
+          "gid": 1,
+          "raw_gid": 1,
+          "tileset": "FixtureFloor",
+          "local_id": 0,
+          "source": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "source_path": "assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "atlas": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "position": [
+            80.0,
+            64.0
+          ],
+          "size": [
+            48.0,
+            48.0
+          ],
+          "rotation": 0.0,
+          "flip": {
+            "horizontal": false,
+            "vertical": false,
+            "diagonal": false,
+            "hex_120": false
+          },
+          "opacity": 1.0,
+          "properties": {}
+        },
+        {
+          "id": "Props_2",
+          "gid": 17,
+          "raw_gid": 17,
+          "tileset": "FixtureObjects",
+          "local_id": 0,
+          "source": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png",
+          "source_path": "assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png",
+          "atlas": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "position": [
+            160.0,
+            64.0
+          ],
+          "size": [
+            96.0,
+            96.0
+          ],
+          "rotation": 0.0,
+          "flip": {
+            "horizontal": false,
+            "vertical": false,
+            "diagonal": false,
+            "hex_120": false
+          },
+          "opacity": 1.0,
+          "properties": {}
+        },
+        {
+          "id": "Props_3",
+          "gid": 1,
+          "raw_gid": 1,
+          "tileset": "FixtureFloor",
+          "local_id": 0,
+          "source": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "source_path": "assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A5.png",
+          "atlas": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "position": [
+            37.0,
+            45.0
+          ],
+          "size": [
+            48.0,
+            48.0
+          ],
+          "rotation": 0.0,
+          "flip": {
+            "horizontal": false,
+            "vertical": false,
+            "diagonal": false,
+            "hex_120": false
+          },
+          "opacity": 1.0,
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "name": "WallsCollision",
+      "type": "objectgroup",
+      "z_index": -5,
+      "opacity": 1.0,
+      "visible": true,
+      "properties": {},
+      "items": []
+    },
+    {
+      "name": "GameplayMarkers",
+      "type": "objectgroup",
+      "z_index": 20,
+      "opacity": 1.0,
+      "visible": true,
+      "properties": {},
+      "items": []
+    },
+    {
+      "name": "Labels",
+      "type": "objectgroup",
+      "z_index": 20,
+      "opacity": 1.0,
+      "visible": true,
+      "properties": {},
+      "items": []
+    }
+  ],
+  "collisions": [
+    {
+      "id": "4",
+      "name": "wall_block",
+      "kind": "wall",
+      "layer": "WallsCollision",
+      "position": [
+        16.0,
+        16.0
+      ],
+      "size": [
+        64.0,
+        16.0
+      ],
+      "rotation": 0.0,
+      "properties": {},
+      "shape": "rectangle"
+    }
+  ],
+  "markers": [
+    {
+      "id": "5",
+      "name": "player_spawn",
+      "kind": "player_spawn",
+      "layer": "GameplayMarkers",
+      "position": [
+        24.0,
+        40.0
+      ],
+      "size": [
+        0.0,
+        0.0
+      ],
+      "rotation": 0.0,
+      "point": true,
+      "properties": {
+        "kind": "player_spawn"
+      }
+    },
+    {
+      "id": "6",
+      "name": "patrol_a",
+      "kind": "guard_patrol",
+      "layer": "GameplayMarkers",
+      "position": [
+        100.0,
+        100.0
+      ],
+      "size": [
+        0.0,
+        0.0
+      ],
+      "rotation": 0.0,
+      "point": true,
+      "properties": {
+        "kind": "guard_patrol"
+      }
+    },
+    {
+      "id": "7",
+      "name": "patrol_b",
+      "kind": "guard_patrol",
+      "layer": "GameplayMarkers",
+      "position": [
+        148.0,
+        100.0
+      ],
+      "size": [
+        0.0,
+        0.0
+      ],
+      "rotation": 0.0,
+      "point": true,
+      "properties": {
+        "kind": "guard_patrol"
+      }
+    },
+    {
+      "id": "8",
+      "name": "label",
+      "kind": "label",
+      "layer": "Labels",
+      "position": [
+        12.0,
+        8.0
+      ],
+      "size": [
+        96.0,
+        16.0
+      ],
+      "rotation": 0.0,
+      "point": false,
+      "properties": {},
+      "text": "Fixture"
+    }
+  ]
+}

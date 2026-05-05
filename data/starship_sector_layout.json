@@ -3,7 +3,8 @@
   "origin": [80, 72],
   "corridor_style": {
     "bulkhead_interval": 5,
-    "bulkhead_start": 5
+    "bulkhead_start": 5,
+    "floor_width_scale": 0.4
   },
   "rooms": [
     {

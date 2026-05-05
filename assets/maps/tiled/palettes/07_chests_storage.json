@@ -1,0 +1,6453 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "07 Chests",
+  "objectalignment": "bottomleft",
+  "tilewidth": 48,
+  "tileheight": 144,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 16,
+  "tilecount": 117,
+  "image": "07_chests_storage.png",
+  "imagewidth": 768,
+  "imageheight": 1152,
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1659"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1660"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1661"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1662"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1663"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1664"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1665"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1666"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1667"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1668"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1669"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1670"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1671"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1672"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1673"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1674"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1675"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1676"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1677"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1678"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1679"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1680"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1681"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1682"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1683"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1684"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1685"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1686"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1687"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1688"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1689"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1690"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1691"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1692"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1693"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1694"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1695"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1696"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1697"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1698"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1699"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1700"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1701"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1702"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1703"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1704"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1705"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1706"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1707"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1708"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1709"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1710"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1711"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1712"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1713"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1714"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1715"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1716"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1717"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1718"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1719"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1720"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1721"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1722"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1723"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1724"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1725"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1726"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1727"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1728"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1729"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1730"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1731"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1732"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1733"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1734"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1735"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1736"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1737"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1738"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1739"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1740"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1741"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1742"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1743"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1744"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1745"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1746"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1747"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1748"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1749"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1750"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1751"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1752"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1753"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1754"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1755"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1756"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1757"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1758"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1759"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1760"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1761"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1762"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1763"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1764"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1765"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1766"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1767"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1768"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1769"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1770"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1771"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1772"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1773"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1774"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX1775"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_chest3"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_chest3.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    }
+  ]
+}

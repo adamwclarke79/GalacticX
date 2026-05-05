@@ -1,6 +1,12 @@
 class_name LockedDoor
 extends Area2D
 
+const DOOR_SHEET := "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door.png"
+const DOOR_FRAME_OPEN := [288.0, 0.0, 48.0, 96.0]
+const DOOR_FRAME_PARTIAL_1 := [288.0, 96.0, 48.0, 96.0]
+const DOOR_FRAME_PARTIAL_2 := [288.0, 192.0, 48.0, 96.0]
+const DOOR_FRAME_CLOSED := [288.0, 288.0, 48.0, 96.0]
+
 @export var save_id: String = "blast_door_alpha"
 @export var display_name: String = "Blast door"
 @export var required_items: Array[String] = ["hack_tool", "access_card"]
@@ -11,6 +17,9 @@ var _blocker: StaticBody2D
 var _border: Polygon2D
 var _visual: Polygon2D
 var _right_visual: Polygon2D
+var _door_sprite: Sprite2D
+var _white_door_material: ShaderMaterial
+var _door_textures: Dictionary = {}
 
 
 func _ready() -> void:
@@ -30,10 +39,11 @@ func interact(game_state: GameState) -> String:
 
 	for item_id in required_items:
 		if game_state.inventory.has_item(item_id):
-			unlocked = true
-			open = true
-			_update_state()
-			return "%s opened with %s" % [display_name, item_id]
+				unlocked = true
+				open = true
+				_update_state()
+				_play_open_animation()
+				return "%s opened with %s" % [display_name, item_id]
 
 	return "%s requires hack_tool or access_card" % display_name
 
@@ -95,6 +105,16 @@ func _ensure_nodes() -> void:
 		add_child(_right_visual)
 	_right_visual.z_index = 1
 
+	_door_sprite = get_node_or_null("DoorSprite") as Sprite2D
+	if _door_sprite == null:
+		_door_sprite = Sprite2D.new()
+		_door_sprite.name = "DoorSprite"
+		add_child(_door_sprite)
+	_door_sprite.centered = false
+	_door_sprite.position = Vector2(-24.0, -48.0)
+	_door_sprite.z_index = 4
+	_door_sprite.material = _get_white_door_material()
+
 
 func _update_state() -> void:
 	if _blocker != null:
@@ -102,7 +122,12 @@ func _update_state() -> void:
 		var collision: CollisionShape2D = _blocker.get_node_or_null("CollisionShape2D") as CollisionShape2D
 		if collision != null:
 			collision.disabled = open
+	if _apply_sprite_visual():
+		return
+
 	if _visual != null:
+		_border.visible = true
+		_visual.visible = true
 		if open:
 			_set_rect_polygon(_border, Rect2(Vector2(-42, -18), Vector2(84, 36)))
 			_border.color = Color(0.02, 0.025, 0.03, 1.0)
@@ -118,6 +143,71 @@ func _update_state() -> void:
 			_visual.color = Color(0.94, 0.99, 1.0, 1.0)
 			_set_rect_polygon(_right_visual, Rect2(Vector2.ZERO, Vector2.ZERO))
 			_right_visual.visible = false
+
+
+func _apply_sprite_visual() -> bool:
+	if _door_sprite == null:
+		return false
+
+	var texture: Texture2D = _make_door_frame_texture(DOOR_FRAME_OPEN if open else DOOR_FRAME_CLOSED)
+	if texture == null:
+		_door_sprite.visible = false
+		return false
+
+	_door_sprite.texture = texture
+	_door_sprite.visible = true
+	if _border != null:
+		_border.visible = false
+	if _visual != null:
+		_visual.visible = false
+	if _right_visual != null:
+		_right_visual.visible = false
+	return true
+
+
+func _play_open_animation() -> void:
+	if _door_sprite == null:
+		return
+
+	for frame in [DOOR_FRAME_PARTIAL_2, DOOR_FRAME_PARTIAL_1, DOOR_FRAME_OPEN]:
+		var texture: Texture2D = _make_door_frame_texture(frame)
+		if texture != null:
+			_door_sprite.texture = texture
+		await get_tree().create_timer(0.07).timeout
+	_apply_sprite_visual()
+
+
+func _make_door_frame_texture(region_values: Array) -> Texture2D:
+	var key := "%s,%s" % [region_values[0], region_values[1]]
+	if _door_textures.has(key):
+		return _door_textures[key] as Texture2D
+	if not ResourceLoader.exists(DOOR_SHEET):
+		return null
+
+	var source_texture := load(DOOR_SHEET) as Texture2D
+	if source_texture == null:
+		return null
+
+	var atlas := AtlasTexture.new()
+	atlas.atlas = source_texture
+	atlas.region = Rect2(
+		Vector2(float(region_values[0]), float(region_values[1])),
+		Vector2(float(region_values[2]), float(region_values[3]))
+	)
+	_door_textures[key] = atlas
+	return atlas
+
+
+func _get_white_door_material() -> ShaderMaterial:
+	if _white_door_material != null:
+		return _white_door_material
+
+	var shader := Shader.new()
+	shader.code = "shader_type canvas_item;\nvoid fragment() {\n\tvec4 base = texture(TEXTURE, UV);\n\tfloat shade = dot(base.rgb, vec3(0.299, 0.587, 0.114));\n\tfloat panel = smoothstep(0.08, 0.92, shade);\n\tvec3 color = mix(vec3(0.04, 0.045, 0.05), vec3(1.0), panel);\n\tCOLOR = vec4(color, base.a);\n}\n"
+
+	_white_door_material = ShaderMaterial.new()
+	_white_door_material.shader = shader
+	return _white_door_material
 
 
 func _set_rect_polygon(polygon: Polygon2D, rect: Rect2) -> void:

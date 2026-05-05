@@ -1,0 +1,22 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "!Spaceship_decoration2",
+  "tilewidth": 48,
+  "tileheight": 144,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 12,
+  "tilecount": 96,
+  "image": "../../../tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_decoration2.png",
+  "imagewidth": 576,
+  "imageheight": 1152,
+  "properties": [
+    {
+      "name": "godot_source",
+      "type": "string",
+      "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_decoration2.png"
+    }
+  ]
+}

@@ -1,0 +1,6233 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "02 Walls",
+  "objectalignment": "bottomleft",
+  "tilewidth": 48,
+  "tileheight": 96,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 16,
+  "tilecount": 113,
+  "image": "02_wall_tiles.png",
+  "imagewidth": 768,
+  "imageheight": 768,
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0283"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0284"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0285"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0286"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0287"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0288"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0289"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0290"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0291"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0292"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0293"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0294"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0295"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0296"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0297"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0298"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0299"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0300"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0301"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0302"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0303"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0304"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0305"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0306"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0307"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 12
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0308"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0309"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0310"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 15
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 720
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0311"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0312"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0313"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0314"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0315"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0316"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0317"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0318"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0319"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0320"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0321"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0322"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0323"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 12
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0324"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0325"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0326"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 15
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 720
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0327"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0328"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0329"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0330"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0331"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0332"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0333"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0334"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0335"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0336"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0337"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0338"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0339"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0340"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 12
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0341"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0342"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0343"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 15
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 720
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0344"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0345"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0346"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0347"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0348"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0349"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0350"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0351"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0352"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0353"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0354"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0355"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0356"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 12
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0357"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0358"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0359"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 15
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 720
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0360"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0361"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0362"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0363"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0364"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0365"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0366"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0367"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0368"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0369"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0370"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0371"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0372"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 12
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0373"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0374"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0375"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 15
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 720
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0376"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0377"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0378"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0379"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0380"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0381"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0382"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0383"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0384"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0385"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0386"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0387"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0388"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 12
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0389"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 13
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 624
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0390"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX0391"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "tile"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "Spacestation_Inside_A4"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 14
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 15
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/tilesets/Spacestation_Inside_A4.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 720
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_BUTTONS"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Walls"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_tile_buttons_48x96.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PLAIN"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Walls"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_tile_plain_48x96.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_V2_WHITE_OUTLINE"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Walls"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_tile_v2_white_outline_48x96.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_V2_ORANGE_ALT"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Walls"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_tile_v2_orange_alt_48x96.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    }
+  ]
+}

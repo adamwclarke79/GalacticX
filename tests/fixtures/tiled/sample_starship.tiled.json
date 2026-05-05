@@ -1,0 +1,198 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 4,
+  "tilewidth": 16,
+  "tileheight": 16,
+  "infinite": false,
+  "nextlayerid": 7,
+  "nextobjectid": 9,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "source": "fixture_tileset.json"
+    },
+    {
+      "firstgid": 17,
+      "source": "fixture_object_tileset.json"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "Floor",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 4,
+      "opacity": 1,
+      "visible": true,
+      "data": [
+        1,
+        2147483650,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Props",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 1,
+          "name": "snapped_48",
+          "gid": 1,
+          "x": 80,
+          "y": 112,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true
+        },
+        {
+          "id": 2,
+          "name": "large_96",
+          "gid": 17,
+          "x": 160,
+          "y": 160,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true
+        },
+        {
+          "id": 3,
+          "name": "freeform_48",
+          "gid": 1,
+          "x": 37,
+          "y": 93,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "WallsCollision",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 4,
+          "name": "wall_block",
+          "type": "wall",
+          "x": 16,
+          "y": 16,
+          "width": 64,
+          "height": 16,
+          "rotation": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GameplayMarkers",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 5,
+          "name": "player_spawn",
+          "point": true,
+          "x": 24,
+          "y": 40,
+          "visible": true,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "player_spawn"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "patrol_a",
+          "point": true,
+          "x": 100,
+          "y": 100,
+          "visible": true,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "guard_patrol"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "patrol_b",
+          "point": true,
+          "x": 148,
+          "y": 100,
+          "visible": true,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "guard_patrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Labels",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 8,
+          "name": "label",
+          "x": 12,
+          "y": 8,
+          "width": 96,
+          "height": 16,
+          "visible": true,
+          "text": {
+            "text": "Fixture",
+            "pixelsize": 16,
+            "wrap": false
+          }
+        }
+      ]
+    }
+  ]
+}

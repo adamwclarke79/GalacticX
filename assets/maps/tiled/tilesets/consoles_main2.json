@@ -1,0 +1,22 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "!$Consoles_main2",
+  "tilewidth": 144,
+  "tileheight": 96,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 3,
+  "tilecount": 12,
+  "image": "../../../tilesets/spaceship_tileset/Spaceship Tileset/characters/!$Consoles_main2.png",
+  "imagewidth": 432,
+  "imageheight": 384,
+  "properties": [
+    {
+      "name": "godot_source",
+      "type": "string",
+      "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!$Consoles_main2.png"
+    }
+  ]
+}

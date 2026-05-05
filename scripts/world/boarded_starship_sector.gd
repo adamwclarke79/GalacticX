@@ -8,10 +8,13 @@ signal status_requested(message: String)
 const PlayerScene: PackedScene = preload("res://scenes/actors/Player.tscn")
 const GuardScene: PackedScene = preload("res://scenes/actors/Guard.tscn")
 const StarshipLayoutBuilderScript: Script = preload("res://scripts/world/starship_layout_builder.gd")
+const PaintedTiledMapLoaderScript: Script = preload("res://scripts/world/painted_tiled_map_loader.gd")
 const TILESET_ROOT := "res://assets/tilesets/spaceship_tileset/Spaceship Tileset"
 const TILE_SIZE := 48.0
 const MAP_ORIGIN := Vector2(80, 72)
 const MAP_TILE_SIZE := 48.0
+const MAIN_CORRIDOR_Y := 5
+const MAIN_CORRIDOR_HEIGHT := 2
 
 var player: PlayerController
 var guard: GuardAI
@@ -20,12 +23,16 @@ var terminal: TerminalInteractable
 var door: LockedDoor
 var _spawn_position := Vector2(128, 384)
 var _objective_area: Area2D
+var _painted_map_loader: PaintedTiledMapLoader
+var _painted_map_loaded := false
 
 
 func _ready() -> void:
 	_create_tilemap_layer_shells()
-	_spawn_position = _grid_to_center(Vector2i(1, 6))
-	if not _create_starship_layout():
+	_spawn_position = _main_corridor_center(1)
+	_painted_map_loaded = _create_painted_starship_layout()
+	_spawn_position = _marker_position_any(["player_spawn", "spawn"], _spawn_position)
+	if not _painted_map_loaded and not _create_starship_layout():
 		_create_placeholder_starship_map()
 	_create_interactables()
 	_create_npc_markers()
@@ -72,7 +79,7 @@ func _create_tilemap_layer_shells() -> void:
 	shell_root.name = "TileMapLayers"
 	add_child(shell_root)
 
-	for layer_name in ["Floor", "WallsCollision", "Props", "Doors", "GameplayMarkers"]:
+	for layer_name in ["Floor", "WallsCollision", "Props", "Doors", "GameplayMarkers", "Labels"]:
 		var layer: Node = null
 		if ClassDB.class_exists("TileMapLayer"):
 			layer = ClassDB.instantiate("TileMapLayer") as Node
@@ -90,12 +97,19 @@ func _create_starship_layout() -> bool:
 	return builder.build_into(self)
 
 
+func _create_painted_starship_layout() -> bool:
+	_painted_map_loader = PaintedTiledMapLoaderScript.new() as PaintedTiledMapLoader
+	if _painted_map_loader == null:
+		return false
+	return _painted_map_loader.load_into(self)
+
+
 func _create_placeholder_starship_map() -> void:
-	_add_floor(Rect2(Vector2(40, 96), Vector2(1200, 520)), Color(0.86, 0.87, 0.86))
-	_add_floor(Rect2(Vector2(80, 140), Vector2(1120, 432)), Color(0.94, 0.95, 0.94))
-	_add_floor(Rect2(Vector2(90, 310), Vector2(1080, 96)), Color(0.53, 0.55, 0.55))
-	_add_floor(Rect2(Vector2(760, 166), Vector2(210, 130)), Color(0.90, 0.91, 0.90))
-	_add_floor(Rect2(Vector2(760, 420), Vector2(210, 120)), Color(0.90, 0.91, 0.90))
+	_add_floor(Rect2(Vector2(40, 96), Vector2(1200, 520)), Color(0.24, 0.27, 0.28))
+	_add_floor(Rect2(Vector2(80, 140), Vector2(1120, 432)), Color(0.24, 0.27, 0.28))
+	_add_floor(Rect2(Vector2(90, 310), Vector2(1080, 96)), Color(0.24, 0.27, 0.28))
+	_add_floor(Rect2(Vector2(760, 166), Vector2(210, 130)), Color(0.24, 0.27, 0.28))
+	_add_floor(Rect2(Vector2(760, 420), Vector2(210, 120)), Color(0.24, 0.27, 0.28))
 	_add_tileset_reference_tiles()
 
 	_add_wall(Rect2(Vector2(40, 96), Vector2(1200, 28)))
@@ -109,7 +123,7 @@ func _create_placeholder_starship_map() -> void:
 	_add_wall(Rect2(Vector2(982, 124), Vector2(28, 190)))
 	_add_wall(Rect2(Vector2(982, 410), Vector2(28, 178)))
 
-	_add_floor(Rect2(Vector2(68, 315), Vector2(70, 86)), Color(0.72, 0.74, 0.73))
+	_add_floor(Rect2(Vector2(68, 315), Vector2(70, 86)), Color(0.24, 0.27, 0.28))
 	_add_label("Breach", Vector2(78, 284), Color(1.0, 0.52, 0.34))
 	_add_label("Droid escape bay", Vector2(1010, 528), Color(0.55, 0.90, 1.0))
 	_add_label("Leia marker", Vector2(790, 142), Color(0.95, 0.86, 0.55))
@@ -122,29 +136,29 @@ func _create_placeholder_starship_map() -> void:
 func _create_interactables() -> void:
 	container = ContainerInteractable.new()
 	container.name = "PartsContainer"
-	container.position = _grid_to_center(Vector2i(5, 2))
+	container.position = _marker_position_any(["container", "parts_container"], _grid_to_center(Vector2i(5, 2)))
 	add_child(container)
 
 	terminal = TerminalInteractable.new()
 	terminal.name = "AccessTerminal"
-	terminal.position = _grid_to_center(Vector2i(8, 9))
+	terminal.position = _marker_position_any(["terminal", "access_terminal"], _grid_to_center(Vector2i(8, 9)))
 	add_child(terminal)
 
 	door = LockedDoor.new()
 	door.name = "BlastDoorAlpha"
-	door.position = _grid_to_center(Vector2i(21, 5))
+	door.position = _marker_position_any(["door", "blast_door_alpha"], _main_corridor_center(21))
 	add_child(door)
 
 
 func _create_npc_markers() -> void:
-	_add_character_marker("rebelsoldier", _grid_to_center(Vector2i(3, 6)), "west", 1.0)
-	_add_character_marker("rebelsoldier", _grid_to_center(Vector2i(4, 5)), "west", 1.0)
+	_add_character_marker("rebelsoldier", _main_corridor_center(3), "west", 1.0)
+	_add_character_marker("rebelsoldier", _main_corridor_center(4), "west", 1.0)
 	_add_character_marker("imperial_officer", _grid_to_center(Vector2i(22, 3)), "west", 1.0)
 	_add_character_marker("cp3o", _grid_to_center(Vector2i(18, 11)), "south", 1.0)
 	_add_character_marker("r2d2_replica", _grid_to_center(Vector2i(19, 11)), "south", 1.0)
 	_add_character_marker("gnk-droid", _grid_to_center(Vector2i(16, 11)), "east", 1.0)
 	_add_placeholder_marker("Princess Leia", _grid_to_center(Vector2i(21, 3)), Color(0.95, 0.85, 0.62))
-	_add_placeholder_marker("Darth Vader", _grid_to_center(Vector2i(23, 6)), Color(0.08, 0.08, 0.10))
+	_add_placeholder_marker("Darth Vader", _main_corridor_center(23), Color(0.08, 0.08, 0.10))
 
 
 func _spawn_player() -> void:
@@ -157,13 +171,13 @@ func _spawn_player() -> void:
 func _spawn_guard() -> void:
 	guard = GuardScene.instantiate() as GuardAI
 	add_child(guard)
-	guard.global_position = _grid_to_center(Vector2i(9, 6))
-	guard.set_patrol_points([
-		_grid_to_center(Vector2i(8, 5)),
-		_grid_to_center(Vector2i(18, 5)),
-		_grid_to_center(Vector2i(18, 6)),
-		_grid_to_center(Vector2i(8, 6))
-	])
+	guard.global_position = _marker_position_any(["guard_spawn", "guard"], _main_corridor_center(9))
+	var patrol_points: Array[Vector2] = _marker_positions("guard_patrol")
+	if patrol_points.size() < 2:
+		patrol_points = []
+		patrol_points.append(_main_corridor_center(8))
+		patrol_points.append(_main_corridor_center(18))
+	guard.set_patrol_points(patrol_points)
 	guard.set_target_player(player)
 	guard_ready.emit(guard)
 
@@ -171,7 +185,7 @@ func _spawn_guard() -> void:
 func _create_objective_marker() -> void:
 	_objective_area = Area2D.new()
 	_objective_area.name = "SandboxObjectiveMarker"
-	_objective_area.position = _grid_to_center(Vector2i(20, 11))
+	_objective_area.position = _marker_position_any(["objective", "sandbox_objective"], _grid_to_center(Vector2i(20, 11)))
 	_objective_area.collision_mask = 2
 	_objective_area.body_entered.connect(_on_objective_entered)
 	add_child(_objective_area)
@@ -209,7 +223,7 @@ func _add_floor(rect: Rect2, color: Color) -> void:
 
 func _add_tileset_reference_tiles() -> void:
 	var floor_sheet := "%s/tilesets/Spacestation_Inside_A5.png" % TILESET_ROOT
-	var wall_sheet := "%s/tilesets/Spacestation_Inside_B.png" % TILESET_ROOT
+	var wall_sheet := "%s/tilesets/Spacestation_Inside_A4.png" % TILESET_ROOT
 	var console_sheet := "%s/characters/!Consoles.png" % TILESET_ROOT
 	var door_sheet := "%s/characters/!Spaceship_door.png" % TILESET_ROOT
 
@@ -218,7 +232,7 @@ func _add_tileset_reference_tiles() -> void:
 			_add_atlas_tile(floor_sheet, Rect2(Vector2(0, 0), Vector2(TILE_SIZE, TILE_SIZE)), Vector2(412 + x * 48, 330 + y * 48), -12)
 
 	for x in range(4):
-		_add_atlas_tile(wall_sheet, Rect2(Vector2(0, 0), Vector2(TILE_SIZE, TILE_SIZE)), Vector2(760 + x * 48, 172), -8)
+		_add_atlas_tile(wall_sheet, Rect2(Vector2(576, 384), Vector2(TILE_SIZE, TILE_SIZE)), Vector2(760 + x * 48, 172), -8)
 
 	_add_atlas_tile(console_sheet, Rect2(Vector2(0, 0), Vector2(96, 96)), Vector2(842, 232), -2)
 	_add_atlas_tile(door_sheet, Rect2(Vector2(0, 0), Vector2(96, 96)), Vector2(1000, 328), -2)
@@ -258,7 +272,7 @@ func _add_wall(rect: Rect2) -> void:
 	body.add_child(collision)
 
 	var visual := Polygon2D.new()
-	visual.color = Color(0.94, 0.95, 0.94)
+	visual.color = Color(1.0, 1.0, 1.0)
 	visual.z_index = 8
 	visual.polygon = PackedVector2Array([
 		Vector2(-rect.size.x * 0.5, -rect.size.y * 0.5),
@@ -354,6 +368,26 @@ func _grid_to_center(grid: Vector2i) -> Vector2:
 		float(grid.x) * MAP_TILE_SIZE + MAP_TILE_SIZE * 0.5,
 		float(grid.y) * MAP_TILE_SIZE + MAP_TILE_SIZE * 0.5
 	)
+
+
+func _main_corridor_center(grid_x: int) -> Vector2:
+	return MAP_ORIGIN + Vector2(
+		float(grid_x) * MAP_TILE_SIZE + MAP_TILE_SIZE * 0.5,
+		(float(MAIN_CORRIDOR_Y) + float(MAIN_CORRIDOR_HEIGHT) * 0.5) * MAP_TILE_SIZE
+	)
+
+
+func _marker_position_any(names_or_kinds: Array[String], fallback: Vector2) -> Vector2:
+	if _painted_map_loader == null:
+		return fallback
+	return _painted_map_loader.marker_position_any(names_or_kinds, fallback)
+
+
+func _marker_positions(name_or_kind: String) -> Array[Vector2]:
+	if _painted_map_loader == null:
+		var empty: Array[Vector2] = []
+		return empty
+	return _painted_map_loader.marker_positions(name_or_kind)
 
 
 func _on_objective_entered(body: Node2D) -> void:

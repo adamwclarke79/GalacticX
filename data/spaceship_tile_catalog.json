@@ -3,7 +3,7 @@
   "root": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset",
   "sheets": {
     "floor": "tilesets/Spacestation_Inside_A5.png",
-    "wall": "tilesets/Spacestation_Inside_B.png",
+    "wall": "tilesets/Spacestation_Inside_A4.png",
     "detail": "tilesets/Spacestation_Inside_C.png",
     "doors": "characters/!Spaceship_door.png",
     "doors_alt": "characters/!Spaceship_door2.png",
@@ -31,17 +31,52 @@
     },
     "wall_basic": {
       "sheet": "wall",
-      "x": 0,
-      "y": 0,
+      "x": 576,
+      "y": 384,
       "w": 48,
       "h": 48
     },
     "wall_alt": {
       "sheet": "wall",
-      "x": 48,
-      "y": 0,
+      "x": 576,
+      "y": 384,
       "w": 48,
       "h": 48
+    },
+    "wall_button_panel": {
+      "sheet": "detail",
+      "x": 480,
+      "y": 432,
+      "w": 48,
+      "h": 48
+    },
+    "door_frame_open": {
+      "sheet": "doors",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 96
+    },
+    "door_frame_partial_1": {
+      "sheet": "doors",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 96
+    },
+    "door_frame_partial_2": {
+      "sheet": "doors",
+      "x": 288,
+      "y": 192,
+      "w": 48,
+      "h": 96
+    },
+    "door_frame_closed": {
+      "sheet": "doors",
+      "x": 288,
+      "y": 288,
+      "w": 48,
+      "h": 96
     },
     "door_basic": {
       "sheet": "doors",
