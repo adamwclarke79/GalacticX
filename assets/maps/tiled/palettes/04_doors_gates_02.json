@@ -1,0 +1,4583 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "04 Doors 2",
+  "objectalignment": "bottomleft",
+  "tilewidth": 96,
+  "tileheight": 144,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 10,
+  "tilecount": 83,
+  "image": "04_doors_gates_02.png",
+  "imagewidth": 960,
+  "imageheight": 1296,
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2144"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2145"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2146"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2147"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2148"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2149"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2150"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2151"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2152"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2153"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2154"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2155"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2156"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2157"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2158"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2159"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2160"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2161"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2162"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2163"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2164"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2165"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2166"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2167"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2168"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2169"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2170"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2171"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2172"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2173"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2174"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2175"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2176"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2177"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2178"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2179"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2180"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2181"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2182"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2183"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2184"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2185"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2186"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2187"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2188"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2189"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2190"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2191"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2192"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2193"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2194"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 576
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2195"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2196"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 336
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2197"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 8
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 384
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2198"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 9
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2199"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 10
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 480
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2200"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door2"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 11
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door2.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 528
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 672
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2201"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2202"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2203"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2204"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2205"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2206"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2207"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2208"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2209"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2210"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2211"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2212"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 144
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2213"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2214"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2215"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2216"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2217"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2218"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2219"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2220"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2221"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2222"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 192
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2223"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 240
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "GX2224"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "object_frame"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "!Spaceship_door_diagonal"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 6
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/spaceship_tileset/Spaceship Tileset/characters/!Spaceship_door_diagonal.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 288
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 432
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 144
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_DOOR_PANEL_96_R00_C03"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_door"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Door_Panels_96"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_bright_96/starwars_wall_panel_96_r00_c03.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_DOOR_PANEL_96_R01_C00"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_door"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Door_Panels_96"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_bright_96/starwars_wall_panel_96_r01_c00.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 96
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 96
+        }
+      ]
+    }
+  ]
+}

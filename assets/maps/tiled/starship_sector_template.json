@@ -21,31 +21,43 @@
       "source": "palettes/02_wall_tiles.json"
     },
     {
-      "firstgid": 522,
+      "firstgid": 536,
+      "source": "palettes/02_starwars_wall_tiles_48.json"
+    },
+    {
+      "firstgid": 547,
       "source": "palettes/03_wall_detail_tiles.json"
     },
     {
-      "firstgid": 1339,
-      "source": "palettes/04_doors_gates.json"
+      "firstgid": 1364,
+      "source": "palettes/04_doors_gates_01.json"
     },
     {
-      "firstgid": 1560,
+      "firstgid": 1504,
+      "source": "palettes/04_doors_gates_02.json"
+    },
+    {
+      "firstgid": 1587,
+      "source": "palettes/04_starwars_doors_48.json"
+    },
+    {
+      "firstgid": 1589,
       "source": "palettes/05_consoles_computers.json"
     },
     {
-      "firstgid": 1754,
+      "firstgid": 1783,
       "source": "palettes/06_reactors_medbay.json"
     },
     {
-      "firstgid": 1805,
+      "firstgid": 1834,
       "source": "palettes/07_chests_storage.json"
     },
     {
-      "firstgid": 1922,
+      "firstgid": 1951,
       "source": "palettes/08_lights.json"
     },
     {
-      "firstgid": 1964,
+      "firstgid": 1993,
       "source": "palettes/09_decorations_switches.json"
     }
   ],

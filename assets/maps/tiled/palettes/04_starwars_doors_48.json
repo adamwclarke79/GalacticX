@@ -1,0 +1,128 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "04 Star Wars Doors 48",
+  "objectalignment": "bottomleft",
+  "tilewidth": 48,
+  "tileheight": 48,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 2,
+  "tilecount": 2,
+  "image": "04_starwars_doors_48.png",
+  "imagewidth": 96,
+  "imageheight": 48,
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_DOOR_PANEL_48_R01_C00"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_door_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Door_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r01_c00.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_DOOR_PANEL_48_R01_C01"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_door_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Door_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r01_c01.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    }
+  ]
+}

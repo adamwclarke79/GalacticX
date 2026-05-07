@@ -8,11 +8,11 @@
   "tileheight": 48,
   "spacing": 0,
   "margin": 0,
-  "columns": 16,
+  "columns": 20,
   "tilecount": 817,
   "image": "03_wall_detail_tiles.png",
-  "imagewidth": 768,
-  "imageheight": 2496,
+  "imagewidth": 960,
+  "imageheight": 1968,
   "tiles": [
     {
       "id": 0,

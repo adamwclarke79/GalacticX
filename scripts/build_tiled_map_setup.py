@@ -26,12 +26,16 @@ MAP_TILE_SIZE = 16
 SMALL_PALETTE_COLUMNS = 16
 MEDIUM_PALETTE_COLUMNS = 10
 LARGE_PALETTE_COLUMNS = 8
+MAX_PALETTE_ATLAS_WIDTH = 2048
+MAX_PALETTE_ATLAS_HEIGHT = 2048
 LAYER_NAMES = ["Floor", "WallsCollision", "Props", "Doors", "GameplayMarkers", "Labels"]
 CATEGORY_LABELS = {
     "01_floor_tiles": "01 Floor",
     "02_wall_tiles": "02 Walls",
+    "02_starwars_wall_tiles_48": "02 Star Wars Walls 48",
     "03_wall_detail_tiles": "03 Wall Detail",
     "04_doors_gates": "04 Doors",
+    "04_starwars_doors_48": "04 Star Wars Doors 48",
     "05_consoles_computers": "05 Consoles",
     "06_reactors_medbay": "06 Reactor",
     "07_chests_storage": "07 Chests",
@@ -43,6 +47,28 @@ CUSTOM_STARWARS_WALL_TILES = [
     ("SW_WALL_PLAIN", "wall_tile_plain_48x96.png"),
     ("SW_WALL_V2_WHITE_OUTLINE", "wall_tile_v2_white_outline_48x96.png"),
     ("SW_WALL_V2_ORANGE_ALT", "wall_tile_v2_orange_alt_48x96.png"),
+]
+CUSTOM_STARWARS_TILE_DIRECTORIES = [
+    (
+        "SW_WALL_PANEL_96",
+        "SW_DOOR_PANEL_96",
+        "StarWars_Wall_Panels_96",
+        "StarWars_Door_Panels_96",
+        "wall_panels_bright_96",
+        {(0, 3), (1, 0)},
+        "starwars_wall",
+        "starwars_door",
+    ),
+    (
+        "SW_WALL_PANEL_48",
+        "SW_DOOR_PANEL_48",
+        "StarWars_Wall_Panels_48",
+        "StarWars_Door_Panels_48",
+        "wall_panels_48",
+        {(1, 0), (1, 1)},
+        "starwars_wall_48",
+        "starwars_door_48",
+    ),
 ]
 
 
@@ -85,11 +111,17 @@ class TiledTileset:
     def columns(self) -> int:
         if not self.tiles:
             return 1
+        max_columns = max(1, MAX_PALETTE_ATLAS_WIDTH // self.tile_width)
+        max_rows = max(1, MAX_PALETTE_ATLAS_HEIGHT // self.tile_height)
         if self.tile_width <= 48:
-            return min(SMALL_PALETTE_COLUMNS, self.tile_count)
-        if self.tile_width <= 96:
-            return min(MEDIUM_PALETTE_COLUMNS, self.tile_count)
-        return min(LARGE_PALETTE_COLUMNS, self.tile_count)
+            base_columns = SMALL_PALETTE_COLUMNS
+        elif self.tile_width <= 96:
+            base_columns = MEDIUM_PALETTE_COLUMNS
+        else:
+            base_columns = LARGE_PALETTE_COLUMNS
+
+        height_limited_columns = (self.tile_count + max_rows - 1) // max_rows
+        return min(max(base_columns, height_limited_columns), max_columns, self.tile_count)
 
     @property
     def rows(self) -> int:
@@ -340,12 +372,55 @@ def load_palette_tiles(manifest_path: Path, catalog_root: Path, source_root: Pat
                 height=height,
             )
         )
+    for (
+        wall_prefix,
+        door_prefix,
+        wall_sheet,
+        door_sheet,
+        directory,
+        door_cells,
+        wall_category,
+        door_category,
+    ) in CUSTOM_STARWARS_TILE_DIRECTORIES:
+        source_dir = STARWARS_TILE_ROOT / directory
+        if not source_dir.exists():
+            continue
+        for index, source_image in enumerate(sorted(source_dir.glob("*.png"))):
+            match = re.search(r"_r(\d+)_c(\d+)", source_image.stem)
+            row = int(match.group(1)) if match else 0
+            column = int(match.group(2)) if match else index
+            is_door_panel = (row, column) in door_cells
+            catalog_id_prefix = door_prefix if is_door_panel else wall_prefix
+            catalog_id = f"{catalog_id_prefix}_R{row:02d}_C{column:02d}"
+            with Image.open(source_image) as image:
+                width, height = image.size
+            tiles.append(
+                PaletteTile(
+                    catalog_id=catalog_id,
+                    category=door_category if is_door_panel else wall_category,
+                    sheet=door_sheet if is_door_panel else wall_sheet,
+                    source_image=source_image,
+                    preview_image=source_image,
+                    row=row,
+                    column=column,
+                    x=0,
+                    y=0,
+                    width=width,
+                    height=height,
+                )
+            )
     return tiles
 
 
 def category_for(tile: PaletteTile) -> str:
     if tile.category == "starwars_wall":
         return "02_wall_tiles"
+    if tile.category == "starwars_door":
+        return "04_doors_gates"
+    if tile.category == "starwars_wall_48":
+        return "02_starwars_wall_tiles_48"
+    if tile.category == "starwars_door_48":
+        return "04_starwars_doors_48"
     sheet = tile.sheet.lower()
     if tile.source_image.parent.name == "tilesets":
         if sheet.endswith("_a4"):
@@ -366,6 +441,21 @@ def category_for(tile: PaletteTile) -> str:
     return "09_decorations_switches"
 
 
+def max_chunk_size_for(tiles: list[PaletteTile]) -> int:
+    tile_width = max((tile.width for tile in tiles), default=MAP_TILE_SIZE)
+    tile_height = max((tile.height for tile in tiles), default=MAP_TILE_SIZE)
+    max_columns = max(1, MAX_PALETTE_ATLAS_WIDTH // tile_width)
+    max_rows = max(1, MAX_PALETTE_ATLAS_HEIGHT // tile_height)
+    return max(1, max_columns * max_rows)
+
+
+def chunk_tiles(tiles: list[PaletteTile]) -> list[list[PaletteTile]]:
+    chunk_size = max_chunk_size_for(tiles)
+    if len(tiles) <= chunk_size:
+        return [tiles]
+    return [tiles[index : index + chunk_size] for index in range(0, len(tiles), chunk_size)]
+
+
 def build_palette_tilesets(tiles: list[PaletteTile], output_root: Path) -> list[TiledTileset]:
     grouped: dict[str, list[PaletteTile]] = {slug: [] for slug in CATEGORY_LABELS}
     for tile in tiles:
@@ -376,15 +466,19 @@ def build_palette_tilesets(tiles: list[PaletteTile], output_root: Path) -> list[
         category_tiles = grouped.get(slug, [])
         if not category_tiles:
             continue
-        tilesets.append(
-            TiledTileset(
-                slug=slug,
-                name=label,
-                output_path=output_root / "palettes" / f"{slug}.json",
-                atlas_path=output_root / "palettes" / f"{slug}.png",
-                tiles=category_tiles,
+        chunks = chunk_tiles(category_tiles)
+        for index, chunk in enumerate(chunks, start=1):
+            chunk_slug = slug if len(chunks) == 1 else f"{slug}_{index:02d}"
+            chunk_label = label if len(chunks) == 1 else f"{label} {index}"
+            tilesets.append(
+                TiledTileset(
+                    slug=chunk_slug,
+                    name=chunk_label,
+                    output_path=output_root / "palettes" / f"{chunk_slug}.json",
+                    atlas_path=output_root / "palettes" / f"{chunk_slug}.png",
+                    tiles=chunk,
+                )
             )
-        )
     return tilesets
 
 

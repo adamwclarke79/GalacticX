@@ -1,0 +1,623 @@
+{
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.12.1",
+  "name": "02 Star Wars Walls 48",
+  "objectalignment": "bottomleft",
+  "tilewidth": 48,
+  "tileheight": 48,
+  "spacing": 0,
+  "margin": 0,
+  "columns": 11,
+  "tilecount": 11,
+  "image": "02_starwars_wall_tiles_48.png",
+  "imagewidth": 528,
+  "imageheight": 48,
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R00_C00"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r00_c00.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R00_C01"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r00_c01.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R00_C02"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r00_c02.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R00_C03"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r00_c03.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R01_C02"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r01_c02.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R01_C03"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r01_c03.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R02_C00"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r02_c00.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R02_C01"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r02_c01.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R02_C02"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r02_c02.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R02_C03"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r02_c03.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "catalog_id",
+          "type": "string",
+          "value": "SW_WALL_PANEL_48_R03_C00"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "value": "starwars_wall_48"
+        },
+        {
+          "name": "sheet",
+          "type": "string",
+          "value": "StarWars_Wall_Panels_48"
+        },
+        {
+          "name": "row",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "name": "column",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "godot_source",
+          "type": "string",
+          "value": "res://assets/tilesets/starwars/wall_panels_48/starwars_wall_panel_48_r03_c00.png"
+        },
+        {
+          "name": "atlas_x",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_y",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "atlas_w",
+          "type": "int",
+          "value": 48
+        },
+        {
+          "name": "atlas_h",
+          "type": "int",
+          "value": 48
+        }
+      ]
+    }
+  ]
+}

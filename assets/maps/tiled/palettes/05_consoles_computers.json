@@ -8,11 +8,11 @@
   "tileheight": 144,
   "spacing": 0,
   "margin": 0,
-  "columns": 8,
+  "columns": 14,
   "tilecount": 194,
   "image": "05_consoles_computers.png",
-  "imagewidth": 1152,
-  "imageheight": 3600,
+  "imagewidth": 2016,
+  "imageheight": 2016,
   "tiles": [
     {
       "id": 0,
